@@ -1,2 +1,199 @@
 body {
+letter-spacing: 1px;
+ h1 {
+   font-size: 4.3rem;
+  }
+
+  .header {
+    background: #0cb3f8;
+    height: 40rem;
+
+.logo {
+  padding-left: 98px;
+}
+
+nav {
+  font-size: 12px;
+}
+
+.iphone, nav {
+  padding-right: 98px;
+}
+
+.topH {
+  padding-left: 88px;
+  letter-spacing: -4px;
+}
+
+p {
+  padding-top: 42px;
+  font-size: 1.31rem;
+  letter-spacing: 0.5px;
+  word-spacing: 0.75px;
+  font-weight: lighter;
+  padding-left: 98px;
+}
+.btnDl {
+  width: 144px;
+  height: 40px;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: white;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-left: 98px;
+  border-style: none;
+  text-align: right;
+  padding-right: 26px;
+  background-image: url("..//img/apple.png");
+  background-repeat: no-repeat;
+}
+
+.learnMore {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 100px;
+  margin-left: 40px;
+  background: none;
+  direction: none;
+  border:none;
+}
+
+  }
+
+.newBtn {
+    background-color: #0081ff;
+    font-size: 9px;
+    margin-left: 6.87rem;
+    width: 60px;
+    height: 20px;
+    border-style: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1.5px 9px 5px rgba(0, 129, 255, 0.18);
+}
+
+/* gray container */
+
+.grayContainer {
+  background-color: #f5f4f4;
+  height: 875px;
+
+  .newBig {
+    font-size: 2.75em;
+    font-variant: .5px;
+  }
+
+ h4 {
+   font-size: 1em;
+   font-weight: lighter;
+   padding-top: 34px;
+   color: #747474;
+   padding-bottom: 80px;
+ }
+
+.columnP {
+  color: #747474;
+  line-height: 1.2;
+  font-weight: lighter;
+  }
+ }
+
+
+/* dark Container */
+
+.darkContainer {
+  background-color: #222222;
+  height: 800px;
+
+
+.licenseH {
+    font-size: 2.75em;
+    font-variant: .5px;
+}
+.licenseP {
+  font-size: 1em;
+  font-weight: lighter;
+  padding-top: 34px;
+  color: #747474;
+  padding-bottom: 80px;
+}
+
+.whiteFrame {
+  background-color: white;
+  width: 300px;
+  height: 440px;
+  border-radius: 10px;
+ &.alt {
+   background: #1b8bf9;
+ }
+}
+.price {
+  font-size: 3rem;
+}
+.time {
+  font-size: 0.75rem;
+}
+.checked {
+  font-size: 14px;
+  font-weight: normal;
+}
+.startBtn {
+  font-size: 10px;
+  font-weight: bold;
+  border: solid 2px #1b8bf9;
+  border-radius: 20px;
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  word-spacing: 2px;
+  letter-spacing: 1.5PX;
+}
+.frames {
+  margin-left: 68px;
+  margin-right: 68px;
+}
+}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    .logo {
+    padding-left: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    }
+    nav {
+      padding-right: 0.5rem !important;
+      padding-bottom: -3rem;
+    }
+    .topH {
+    padding-left: 0.35rem !important;
+    font-size: 2.5rem;
+    text-align: center;
+    font-variant: 2px;
+    }
+
+    .topP {
+      font-size: 0.25em;
+      padding-left: 0.35rem !important;
+    }
+    .btnDl {
+      margin-left: 0.5rem !important;
+      justify-content: flex-start;
+    }
+    .learnMore {
+    }
+  }
+
+.natureBg {
+  margin: 0;
+  padding: 0;
+}
+
+
 }
