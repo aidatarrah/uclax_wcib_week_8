@@ -18,17 +18,22 @@
   </head>
 
 <body>
-  <main class="header">
+
+  <!-- blue container -->
+  <main class="header container-fluid">
       <div class="d-flex flex-md-row align-items-center px-md mb-3 box-shadow">
-        <img src="img/logo.png" class="logo pt-5 my-0 mr-md-auto text-white">
-        <nav class="my-2 my-md-0 font-weight-bold pt-5">
+        <div class="col-9">
+          <img src="img/logo.png" class="logo pt-5 my-0 mr-md-auto text-white">
+        </div>
+        <div class="col-3">
+          <nav class="my-2 my-md-0 font-weight-bold pt-5">
           <a class="p-2 text-white" href="#">HOME</a>
           <a class="p-2 text-white" href="#">ABOUT</a>
           <a class="p-2 text-white" href="#">FEATURES</a>
           <a class="p-2 text-white" href="#">CLIENTS</a>
           <a class="p-2 text-white" href="#">CONTACT</a>
         </nav>
-
+      </div>
       </div>
 
 <!-- top iphone part !-->
@@ -38,8 +43,8 @@
      <div class="row justify-content-start">
        <div class="col col-sm-12 col-md-10">
          <h1 class="pt-md-5 text-white font-weight-bold topH">Make it easy</h1>
-         <p class="text-white topP">See locations and get easy access<br> to messaging, check-in requests<br> and more from your home screen.</p>
-         <button class="btnDl" name="" type="">DOWNLOAD</button>
+         <p class="text-white pt-md-3 pb-md-5 topP">See locations and get easy access<br> to messaging, check-in requests<br> and more from your home screen.</p>
+         <button class="mt-5 mb-3 btnDl" name="" type="">DOWNLOAD</button>
           <button class="learnMore text-white" name="" type="">LEARN MORE</button>
 
        </div>
@@ -52,15 +57,21 @@
 
   </main>
 
-<div>
-<button class="newBtn text-white">NEW</button>
-<p class="newP d-inline-block pl-5 font-weight-light">Get new revolution UI kit for your startup</p>
+<!-- thin white row -->
+
+<div class="flex-inline justify-content-start container-fluid">
+  <div class="row">
+    <div class="col">
+      <button class="newBtn text-white">NEW</button>
+      <p class="d-inline-block pl-5 font-weight-light newP">Get new revolution UI kit for your startup</p>
+    </div>
+   </div>
 </div>
 
 <!-- lightGray Container -->
     <div class="container-fluid grayContainer">
 
-      <div class="row justify-content-start">
+      <div class="row">
         <div class="col">
           <h1 class="text-center font-weight-bold pt-5 newBig">The New Big Thing</h1>
         </div>
@@ -94,7 +105,7 @@
 <!-- second column -->
 
         <div class="col-sm-12 col-md-2 justify-content-center">
-          <img class="whiteIphone" src="img/white_iphone.png">
+          <img class="justify-content-center whiteIphone" alt="Responsive image" src="img/white_iphone.png">
         </div>
 
 
@@ -136,7 +147,7 @@
 
 <div class="row flex justify-content-around frames">
 <!-- first column -->
-<div class="col-sm-12 col-md-2 text-center">
+<div class="col-sm-12 col-md-2 text-center pb-5">
   <div class="whiteFrame">
     <p class="font-weight-bold pt-4 columnH">BASIC</p>
     <h1 class="text-center font-weight-bold price">$10</h1>
@@ -152,7 +163,7 @@
 
 <!-- second column -->
 
-<div class="col-sm-12 col-md-2 text-center text-white">
+<div class="col-sm-12 col-md-2 text-center text-white pb-5">
   <div class="whiteFrame alt">
     <p class="font-weight-bold pt-4 columnH">BASIC</p>
     <h1 class="text-center font-weight-bold price">$10</h1>
@@ -168,7 +179,7 @@
 
 
 <!-- third column -->
-<div class="col-sm-12 col-md-2 text-center">
+<div class="col-sm-12 col-md-2 text-center pb-5">
   <div class="whiteFrame">
     <p class="font-weight-bold pt-4 columnH">BASIC</p>
     <h1 class="text-center font-weight-bold price">$10</h1>
@@ -186,7 +197,7 @@
 
 <!-- nature bg -->
 
- <div class="container-fluid nature img-responsive" style="width: 100%;">
+ <div class="container-fluid nature">
 
    <div class="row justify-content-center">
      <div class="col">
@@ -200,9 +211,7 @@
      </div>
    </div>
 
-
-
-<div class="row flex emailFrom">
+<div class="row emailFrom">
   <div class="col">
    <form class="emailInput">
     <div class="form-group row d-flex justify-content-center">
@@ -215,6 +224,71 @@
 
    </div>
 
+
+<div class="container-fluid lastPart">
+  <div class="flex-md row align-items-center justify-content-between">
+    <div class="col col-sm-12  col-md-4">
+      <img src="img/logo_b.png" class="logo_b" alt="logo">
+    </div>
+
+    <div class="col col-sm-12  col-md-6">
+      <nav class="navbar navbar-expand-lg px-2 justify-content-center">
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link px-3" href="#">ABOUT</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-3" href="#">TOUR</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-3" href="#">PRICING</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-3" href="#">BLOG</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-3" href="#">CONTACT</a>
+        </li>
+
+     </ul>
+
+      </nav>
+    </div>
+
+
+    <div class="col col-sm-12 col-md-2">
+      <nav class="navbar navbar-expand-sm px-2 justify-content-end socialM">
+         <div class="collapse navbar-collapse">
+
+      <ul class="navbar-nav">
+
+
+        <li class="nav-item">
+          <a class="nav-link px-3" href="#"><img src="img/twitter.png" alt="twitter"></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-3" href="#"><img src="img/fb.png" alt="fb"></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link px-3" href="#"><img src="img/google.png" alt="google"></a>
+        </li>
+
+     </ul>
+
+      </nav>
+
+
+  </div>
+</div>
 
 </body>
 

@@ -1,5 +1,6 @@
 body {
 letter-spacing: 1px;
+
  h1 {
    font-size: 4.3rem;
   }
@@ -9,17 +10,17 @@ letter-spacing: 1px;
     height: 40rem;
 
 .logo {
-  padding-left: 98px;
+  padding-left: 80px;
 }
 
 nav {
   font-size: 12px;
 }
-
+/*
 .iphone, nav {
   padding-right: 98px;
 }
-
+*/
 .topH {
   padding-left: 88px;
   letter-spacing: -4px;
@@ -41,7 +42,6 @@ p {
   background-color: white;
   letter-spacing: 1px;
   border-radius: 30px;
-  margin-top: 100px;
   margin-left: 98px;
   border-style: none;
   text-align: right;
@@ -54,7 +54,6 @@ p {
   font-size: 10px;
   font-weight: bold;
   letter-spacing: 1px;
-  margin-top: 100px;
   margin-left: 40px;
   background: none;
   direction: none;
@@ -80,7 +79,7 @@ p {
 
 .grayContainer {
   background-color: #f5f4f4;
-  height: 875px;
+  min-height: 875px;
 
   .newBig {
     font-size: 2.75em;
@@ -107,7 +106,7 @@ p {
 
 .darkContainer {
   background-color: #222222;
-  height: 800px;
+  min-height: 800px;
 
 
 .licenseH {
@@ -193,11 +192,25 @@ opacity: 20%;
 border-radius: 5px 0px 0px 5px;
 border: none;
 }
+}
 
+.lastPart {
+  height: 232px;
+  margin-left: 98px;
+  margin-right: 98px;
+  margin-top: -98px;
+  .navbar {
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    a {
+      color: black;
+    }
+    .socialM {
 
-
- }
-
+    }
+  }
+}
 
 
 }
@@ -205,16 +218,17 @@ border: none;
 
 @media only screen and (max-width: 600px) {
   body {
+    .header {
+      min-height: 42.5rem;
+    }
     .logo {
-    padding-left: 0.5rem !important;
-    padding-top: 0.5rem !important;
+    padding-left: 0.1rem !important;
+    padding-top: 0.1rem !important;
     }
-    nav {
-      padding-right: 0.5rem !important;
-      padding-bottom: -3rem;
-    }
+
     .topH {
     padding-left: 0.35rem !important;
+    padding-bottom: 1rem;
     font-size: 2.5rem;
     text-align: center;
     font-variant: 2px;
@@ -223,14 +237,24 @@ border: none;
     .topP {
       font-size: 0.25em;
       padding-left: 0.35rem !important;
+      padding-top: 1rem !important;
     }
     .btnDl {
       margin-left: 0.5rem !important;
       justify-content: flex-start;
     }
-    .learnMore {
-    }
+  .newP {
+    display: block;
   }
+  .whiteIphone {
+    margin-left: 88px;
+  }
+.logo_b {
+  padding-left: 120px;
+}
+.socialM {
+adding-left: 120px;
+}
 
-
+  }
 }

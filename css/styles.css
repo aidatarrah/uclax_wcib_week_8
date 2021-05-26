@@ -6,13 +6,16 @@ body {
     font-size: 4.3rem; }
   body .header {
     background: #0cb3f8;
-    height: 40rem; }
+    height: 40rem;
+    /*
+.iphone, nav {
+  padding-right: 98px;
+}
+*/ }
     body .header .logo {
-      padding-left: 98px; }
+      padding-left: 80px; }
     body .header nav {
       font-size: 12px; }
-    body .header .iphone, body .header nav {
-      padding-right: 98px; }
     body .header .topH {
       padding-left: 88px;
       letter-spacing: -4px; }
@@ -31,7 +34,6 @@ body {
       background-color: white;
       letter-spacing: 1px;
       border-radius: 30px;
-      margin-top: 100px;
       margin-left: 98px;
       border-style: none;
       text-align: right;
@@ -42,7 +44,6 @@ body {
       font-size: 10px;
       font-weight: bold;
       letter-spacing: 1px;
-      margin-top: 100px;
       margin-left: 40px;
       background: none;
       direction: none;
@@ -60,7 +61,7 @@ body {
     box-shadow: 1.5px 9px 5px rgba(0, 129, 255, 0.18); }
   body .grayContainer {
     background-color: #f5f4f4;
-    height: 875px; }
+    min-height: 875px; }
     body .grayContainer .newBig {
       font-size: 2.75em;
       font-variant: .5px; }
@@ -76,7 +77,7 @@ body {
       font-weight: lighter; }
   body .darkContainer {
     background-color: #222222;
-    height: 800px; }
+    min-height: 800px; }
     body .darkContainer .licenseH {
       font-size: 2.75em;
       font-variant: .5px; }
@@ -143,22 +144,42 @@ body {
       opacity: 20%;
       border-radius: 5px 0px 0px 5px;
       border: none; }
+  body .lastPart {
+    height: 232px;
+    margin-left: 98px;
+    margin-right: 98px;
+    margin-top: -98px; }
+    body .lastPart .navbar {
+      font-size: 11px;
+      font-weight: bold;
+      color: black; }
+      body .lastPart .navbar a {
+        color: black; }
 
 @media only screen and (max-width: 600px) {
+  body .header {
+    min-height: 42.5rem; }
   body .logo {
-    padding-left: 0.5rem !important;
-    padding-top: 0.5rem !important; }
-  body nav {
-    padding-right: 0.5rem !important;
-    padding-bottom: -3rem; }
+    padding-left: 0.1rem !important;
+    padding-top: 0.1rem !important; }
   body .topH {
     padding-left: 0.35rem !important;
+    padding-bottom: 1rem;
     font-size: 2.5rem;
     text-align: center;
     font-variant: 2px; }
   body .topP {
     font-size: 0.25em;
-    padding-left: 0.35rem !important; }
+    padding-left: 0.35rem !important;
+    padding-top: 1rem !important; }
   body .btnDl {
     margin-left: 0.5rem !important;
-    justify-content: flex-start; } }
+    justify-content: flex-start; }
+  body .newP {
+    display: block; }
+  body .whiteIphone {
+    margin-left: 88px; }
+  body .logo_b {
+    padding-left: 120px; }
+  body .socialM {
+    adding-left: 120px; } }
