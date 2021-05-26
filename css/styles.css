@@ -111,8 +111,38 @@ body {
       word-spacing: 2px;
       letter-spacing: 1.5PX; }
     body .darkContainer .frames {
-      margin-left: 68px;
+      margin-left: 60px;
       margin-right: 68px; }
+  body .nature {
+    background: url("../img/nature_bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 688px;
+    margin: 0;
+    padding: 0; }
+    body .nature .subscribe {
+      font-size: 2.75em;
+      font-variant: .5px;
+      margin-top: 67px; }
+    body .nature .subscribeP {
+      font-size: 1em;
+      font-weight: lighter;
+      padding-top: 23px;
+      color: #747474;
+      padding-bottom: 55px; }
+    body .nature .sendBtn {
+      width: 145px;
+      height: 47px;
+      background: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 10px;
+      letter-spacing: 1px; }
+    body .nature #email {
+      width: 20%;
+      opacity: 20%;
+      border-radius: 5px 0px 0px 5px;
+      border: none; }
 
 @media only screen and (max-width: 600px) {
   body .logo {
@@ -131,7 +161,4 @@ body {
     padding-left: 0.35rem !important; }
   body .btnDl {
     margin-left: 0.5rem !important;
-    justify-content: flex-start; }
-  .natureBg {
-    margin: 0;
-    padding: 0; } }
+    justify-content: flex-start; } }

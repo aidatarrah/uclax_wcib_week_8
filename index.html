@@ -14,7 +14,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js defer"></script>
   </head>
 
 <body>
@@ -186,8 +186,33 @@
 
 <!-- nature bg -->
 
-    <div class="">
- <img src="img/nature_bg.png" alt="" class="natureBg">
+ <div class="container-fluid nature img-responsive" style="width: 100%;">
+
+   <div class="row justify-content-center">
+     <div class="col">
+       <h1 class="text-center text-white font-weight-bold pt-5 subscribe">Subscribe Now</h1>
+     </div>
+   </div>
+
+   <div class="row">
+     <div class="col">
+       <p class="text-center text-white subscribeP">The purpose of a good education is to show you that there are three <br>sides to a two-sided story.</p>
+     </div>
+   </div>
+
+
+
+<div class="row flex emailFrom">
+  <div class="col">
+   <form class="emailInput">
+    <div class="form-group row d-flex justify-content-center">
+     <input class="form-control-inline form-control-lg pt-0" type="email" id="email" name="email" placeholder="Your Email">
+     <button class="form-control sendBtn font-weight-bold pt-1" for="email" type="submit">SEND</button>
+    </div>
+ </form>
+ </div>
+</div>
+
    </div>
 
 
