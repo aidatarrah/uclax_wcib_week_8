@@ -9,20 +9,19 @@ letter-spacing: 1px;
     background: #0cb3f8;
     height: 40rem;
 
-.logo {
-  padding-left: 80px;
+.nav {
+  font-size: 12px;
+  color: white;
 }
 
-nav {
-  font-size: 12px;
-}
+
+
 /*
 .iphone, nav {
   padding-right: 98px;
 }
 */
 .topH {
-  padding-left: 88px;
   letter-spacing: -4px;
 }
 
@@ -32,7 +31,7 @@ p {
   letter-spacing: 0.5px;
   word-spacing: 0.75px;
   font-weight: lighter;
-  padding-left: 98px;
+
 }
 .btnDl {
   width: 144px;
@@ -78,12 +77,17 @@ p {
 
 .grayContainer {
   background-color: #f5f4f4;
-  min-height: 875px;
+  min-height: 900px;
 
   .newBig {
     font-size: 2.75em;
   }
-
+.first {
+  padding-right: 7rem!important;
+}
+.third {
+  padding-right: 7rem!important;
+}
  h4 {
    font-size: 1em;
    font-weight: lighter;
@@ -91,6 +95,8 @@ p {
    color: #747474;
    padding-bottom: 80px;
  }
+
+
 
 .columnP {
   color: #747474;
@@ -116,6 +122,7 @@ p {
   padding-top: 34px;
   color: #747474;
   padding-bottom: 80px;
+  padding-right: 6rem;
 }
 
 .whiteFrame {
@@ -125,6 +132,7 @@ p {
   border-radius: 10px;
  &.alt {
    background: #1b8bf9;
+   color: white!important;
  }
 }
 .price {
@@ -152,15 +160,21 @@ p {
   margin-left: 60px;
   margin-right: 68px;
   }
+  .columnH, .time{
+    padding-right: 6rem;
+  }
+   .tick, .checked {
+     padding-right: 3rem;
+   }
  }
 
  .nature {
-   background: url('../img/nature_bg.png');
+   background: url('../img/nature-bg-1.jpg');
    background-repeat: no-repeat;
-   width: 100%;
-   height: 688px;
-   margin: 0;
-   padding: 0;
+   background-size: cover;
+   .p2 {
+     padding-right: 6rem;
+   }
  .subscribe {
    font-size: 2.75em;
    margin-top: 67px;
@@ -191,65 +205,54 @@ border: none;
 }
 
 .lastPart {
-  height: 232px;
-  margin-left: 98px;
-  margin-right: 98px;
-  margin-top: -98px;
-  .navbar {
-    font-size: 11px;
-    font-weight: bold;
-    color: black;
-    a {
-      color: black;
-    }
-    .socialM {
-
-    }
-  }
+height: 233px;
+color: black;
+font-size: 11px;
 }
-
-
-}
-
-
-@media only screen and (max-width: 600px) {
-  body {
-    .header {
-      min-height: 42.5rem;
-    }
-    .logo {
-    padding-left: 0.1rem !important;
-    padding-top: 0.1rem !important;
-    }
-
-    .topH {
-    padding-left: 0.35rem !important;
-    padding-bottom: 1rem;
-    font-size: 2.5rem;
-    text-align: center;
-    }
-
-    .topP {
-      font-size: 0.25em;
-      padding-left: 0.35rem !important;
-      padding-top: 1rem !important;
-    }
-    .btnDl {
-      margin-left: 0.5rem !important;
-      justify-content: flex-start;
-    }
-  .newP {
-    display: block;
-  }
-  .whiteIphone {
-    margin-left: 88px;
-  }
 .logo_b {
-  padding-left: 120px;
+  padding-left: 98px;
 }
 .socialM {
-padding-left: 120px;
+    margin-right: 98px;
+}
+ p {
+   font-weight: lighter;
+   padding-left: 98px;
+   padding-top: 1.5rem;
+   color: gray;
+   letter-spacing: 1.75px;
+ }
 }
 
+
+@media only screen and (max-width: 780px) {
+  body {
+    .container-fluid {
+      display: block;
+    }
   }
+.header {
+
+  .nav {
+    justify-content: center!important;
+    margin-top: -20px!important;
+  }
+
+  .topH {
+    font-size: 2.8rem;
+    letter-spacing: normal;
+  }
+  .topP {
+    font-size: 16px;
+    padding-bottom: -20px!important;
+  }
+  .btnDl {
+    margin-top: 20px!important;
+  }
+  .learnMore {
+    padding-top: 20px!important;
+  }
+
+
+}
 }

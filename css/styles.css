@@ -12,20 +12,17 @@ body {
   padding-right: 98px;
 }
 */ }
-    body .header .logo {
-      padding-left: 80px; }
-    body .header nav {
-      font-size: 12px; }
+    body .header .nav {
+      font-size: 12px;
+      color: white; }
     body .header .topH {
-      padding-left: 88px;
       letter-spacing: -4px; }
     body .header p {
       padding-top: 42px;
       font-size: 1.31rem;
       letter-spacing: 0.5px;
       word-spacing: 0.75px;
-      font-weight: lighter;
-      padding-left: 98px; }
+      font-weight: lighter; }
     body .header .btnDl {
       width: 144px;
       height: 40px;
@@ -60,9 +57,13 @@ body {
     box-shadow: 1.5px 9px 5px rgba(0, 129, 255, 0.18); }
   body .grayContainer {
     background-color: #f5f4f4;
-    min-height: 875px; }
+    min-height: 900px; }
     body .grayContainer .newBig {
       font-size: 2.75em; }
+    body .grayContainer .first {
+      padding-right: 7rem !important; }
+    body .grayContainer .third {
+      padding-right: 7rem !important; }
     body .grayContainer h4 {
       font-size: 1em;
       font-weight: lighter;
@@ -83,14 +84,16 @@ body {
       font-weight: lighter;
       padding-top: 34px;
       color: #747474;
-      padding-bottom: 80px; }
+      padding-bottom: 80px;
+      padding-right: 6rem; }
     body .darkContainer .whiteFrame {
       background-color: white;
       width: 300px;
       height: 440px;
       border-radius: 10px; }
       body .darkContainer .whiteFrame.alt {
-        background: #1b8bf9; }
+        background: #1b8bf9;
+        color: white !important; }
     body .darkContainer .price {
       font-size: 3rem; }
     body .darkContainer .time {
@@ -111,13 +114,16 @@ body {
     body .darkContainer .frames {
       margin-left: 60px;
       margin-right: 68px; }
+    body .darkContainer .columnH, body .darkContainer .time {
+      padding-right: 6rem; }
+    body .darkContainer .tick, body .darkContainer .checked {
+      padding-right: 3rem; }
   body .nature {
-    background: url("../img/nature_bg.png");
+    background: url("../img/nature-bg-1.jpg");
     background-repeat: no-repeat;
-    width: 100%;
-    height: 688px;
-    margin: 0;
-    padding: 0; }
+    background-size: cover; }
+    body .nature .p2 {
+      padding-right: 6rem; }
     body .nature .subscribe {
       font-size: 2.75em;
       margin-top: 67px; }
@@ -141,40 +147,33 @@ body {
       border-radius: 5px 0px 0px 5px;
       border: none; }
   body .lastPart {
-    height: 232px;
-    margin-left: 98px;
-    margin-right: 98px;
-    margin-top: -98px; }
-    body .lastPart .navbar {
-      font-size: 11px;
-      font-weight: bold;
-      color: black; }
-      body .lastPart .navbar a {
-        color: black; }
-
-@media only screen and (max-width: 600px) {
-  body .header {
-    min-height: 42.5rem; }
-  body .logo {
-    padding-left: 0.1rem !important;
-    padding-top: 0.1rem !important; }
-  body .topH {
-    padding-left: 0.35rem !important;
-    padding-bottom: 1rem;
-    font-size: 2.5rem;
-    text-align: center; }
-  body .topP {
-    font-size: 0.25em;
-    padding-left: 0.35rem !important;
-    padding-top: 1rem !important; }
-  body .btnDl {
-    margin-left: 0.5rem !important;
-    justify-content: flex-start; }
-  body .newP {
-    display: block; }
-  body .whiteIphone {
-    margin-left: 88px; }
+    height: 233px;
+    color: black;
+    font-size: 11px; }
   body .logo_b {
-    padding-left: 120px; }
+    padding-left: 98px; }
   body .socialM {
-    padding-left: 120px; } }
+    margin-right: 98px; }
+  body p {
+    font-weight: lighter;
+    padding-left: 98px;
+    padding-top: 1.5rem;
+    color: gray;
+    letter-spacing: 1.75px; }
+
+@media only screen and (max-width: 780px) {
+  body .container-fluid {
+    display: block; }
+  .header .nav {
+    justify-content: center !important;
+    margin-top: -20px !important; }
+  .header .topH {
+    font-size: 2.8rem;
+    letter-spacing: normal; }
+  .header .topP {
+    font-size: 16px;
+    padding-bottom: -20px !important; }
+  .header .btnDl {
+    margin-top: 20px !important; }
+  .header .learnMore {
+    padding-top: 20px !important; } }
